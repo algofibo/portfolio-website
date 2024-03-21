@@ -1,715 +1,666 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--=============== Remixicons ===============-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
 
-    <!--=============== Swiper Css ===============-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--=============== Remixicons ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
 
-    <!--=============== Css ===============-->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/skins/color-1.css" />
+  <!--=============== Swiper Css ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
-    <!--=============== Skin Colors ===============-->
-    <link
-      rel="stylesheet"
-      href="assets/css/skins/color-1.css"
-      class="alternate-style"
-      title="color-1"
-      disabled
-    />
-    <link
-      rel="stylesheet"
-      href="assets/css/skins/color-2.css"
-      class="alternate-style"
-      title="color-2"
-      disabled
-    />
+  <!--=============== Css ===============-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/skins/color-1.css" />
 
-    <title>Portfolio Website</title>
-  </head>
-  <body>
-    <!--=============== Header ===============-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li>
-              <a href="#home" class="nav__link active-link">Hello</a>
-            </li>
-            <li>
-              <a href="#projects" class="nav__link">Projects</a>
-            </li>
-            <li>
-              <a href="#certs" class="nav__link">Certs and Badges</a>
-            </li>
-            <li>
-              <a href="#resume" class="nav__link">Resume</a>
-            </li>
-            
-            <li>
-              <a href="#contact" class="nav__link">Contact</a>
-            </li>
-          </ul>
+  <!--=============== Skin Colors ===============-->
+  <link rel="stylesheet" href="assets/css/skins/color-1.css" class="alternate-style" title="color-1" disabled />
+  <link rel="stylesheet" href="assets/css/skins/color-2.css" class="alternate-style" title="color-2" disabled />
 
-          <div class="nav__close" id="nav-close">
-            <i class="ri-close-fill"></i>
+  <title>Portfolio Website</title>
+</head>
+
+<body>
+  <!--=============== Header ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li>
+            <a href="#home" class="nav__link active-link">Hello</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+          <li>
+            <a href="#certs" class="nav__link">Certs and Badges</a>
+          </li>
+          <li>
+            <a href="#resume" class="nav__link">Resume</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-fill"></i>
+        </div>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-fill"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--=============== Main ===============-->
+  <main class="main">
+    <!--=============== Home ===============-->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <img src="assets/img/profile.png" alt="" class="home__img" />
+
+        <div class="home__data">
+          <h1 class="home__name">John Soudi_</h1>
+          <p class="home__work">aspiring security analyst</p>
+          <dl class="home__list">
+            <dt>PHONE:</dt>
+            <dd>(813)539-4200</dd>
+            <dt>EMAIL:</dt>
+            <dd>john@johnsoudi.com</dd>
+            <dt>ADDRESS:</dt>
+            <dd>St. Petersburg, FL</dd>
+          </dl>
+          <div class="home__socials">
+            <a href="https://github.com/algofibo" target="_blank" class="home__social-link">
+              <i class="ri-github-fill"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/john-soudi-jr-84a199221/" target="_blank" class="home__social-link">
+              <i class="ri-linkedin-box-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Hello ===============-->
+    <section class="hello section container">
+      <h2 class="section__title">Hi_</h2>
+
+      <p class="hello__details text-lg">
+        I am a cybersecurity student who has a passion for learning and solving challenges. I have always been a
+        technical person and cybersecurity is one of the most technical aspects of IT. Below are some of my self study
+        projects
+      </p>
+      <a href="assets/img/John-Cv.pdf" class="button button--flex text-sm"><i class="ri-download-line"></i> DOWNLOAD
+        CV</a>
+    </section>
+
+    <!--=============== projects ===============-->
+    <section class="projects section container" id="projects">
+      <h2 class="section__title">Recent Projects_</h2>
+
+      <div class="posts__container grid">
+        <a href="project_details.html" class="post__card">
+          <img src="assets/img/blog-1.png" alt="" class="post__img" />
+
+          <div class="post__content">
+            <p class="post__date text-xs">October 22, 2017</p>
+            <h3 class="post__title text-sm">HOW TO USE CSS-PREPROCESSOR</h3>
+            <p class="post__description text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempr incididu...
+            </p>
+          </div>
+        </a>
+
+        <a href="project_details.html" class="post__card">
+          <img src="assets/img/blog-2.png" alt="" class="post__img" />
+
+          <div class="post__content">
+            <p class="post__date text-xs">October 22, 2017</p>
+            <h3 class="post__title text-sm">
+              HOW I ORGANIZE MY WORK WITH CODE
+            </h3>
+            <p class="post__description text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempr incididu...
+            </p>
+          </div>
+        </a>
+
+        <a href="project_details.html" class="post__card">
+          <img src="assets/img/blog-3.png" alt="" class="post__img" />
+
+          <div class="post__content">
+            <p class="post__date text-xs">October 22, 2017</p>
+            <h3 class="post__title text-sm">SVG SPRITES VS ICON FONT</h3>
+            <p class="post__description text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempr incididu...
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="posts__container grid">
+        <a href="project_details.html" class="post__card">
+          <img src="assets/img/blog-1.png" alt="" class="post__img" />
+
+          <div class="post__content">
+            <p class="post__date text-xs">October 22, 2017</p>
+            <h3 class="post__title text-sm">HOW TO USE CSS-PREPROCESSOR</h3>
+            <p class="post__description text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempr incididu...
+            </p>
+          </div>
+        </a>
+
+        <a href="project_details.html" class="post__card">
+          <img src="assets/img/blog-2.png" alt="" class="post__img" />
+
+          <div class="post__content">
+            <p class="post__date text-xs">October 22, 2017</p>
+            <h3 class="post__title text-sm">
+              HOW I ORGANIZE MY WORK WITH CODE
+            </h3>
+            <p class="post__description text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempr incididu...
+            </p>
+          </div>
+        </a>
+
+        <a href="project_details.html" class="post__card">
+          <img src="assets/img/blog-3.png" alt="" class="post__img" />
+
+          <div class="post__content">
+            <p class="post__date text-xs">October 22, 2017</p>
+            <h3 class="post__title text-sm">SVG SPRITES VS ICON FONT</h3>
+            <p class="post__description text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempr incididu...
+            </p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+
+
+    <!--=============== Certs and Badges ===============-->
+    <section class="certs section container" id="certs">
+      <h2 class="section__title">Recent Certs and Badges_</h2>
+
+      <div class="certs__container grid">
+        <div class="certs__item grid mix app">
+          <img src="assets/img/project-1.png" alt="" class="project__img" />
+
+          <div class="certs__data">
+            <h3 class="certs__title text-lg">
+              MOBILE AND DESKTOP APP FOR LONDON HOSTEL STORE
+            </h3>
+            <p class="certs__description">
+              Do answered bachelor occasion in of offended no concerns. Supply
+              worthy warmth branch of no ye. Voice tried known to as my to.
+              Though wished merits or be. Alone visit use these smart rooms
+              ham.
+            </p>
+            <h4 class="certs__stack text-xs">USED STACK:</h4>
+            <ul class="tags text-sm">
+              <li>html5</li>
+              <li>css3</li>
+              <li>JavaScript</li>
+              <li>BEM</li>
+              <li>bower</li>
+              <li>grunt</li>
+            </ul>
+
+            <a href="" class="certs__link text-sm">www.superapp.com</a>
           </div>
         </div>
 
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="ri-menu-fill"></i>
+        <div class="certs__item grid mix web">
+          <img src="assets/img/project-2.png" alt="" class="project__img" />
+
+          <div class="certs__data">
+            <h3 class="certs__title text-lg">
+              WEB APP PAGE FOR TRAVEL COMPANY
+            </h3>
+            <p class="certs__description">
+              Do answered bachelor occasion in of offended no concerns. Supply
+              worthy warmth branch of no ye. Voice tried known to as my to.
+              Though wished merits or be. Alone visit use these smart rooms
+              ham.
+            </p>
+            <h4 class="certs__stack text-xs">USED STACK:</h4>
+            <ul class="tags text-sm">
+              <li>html5</li>
+              <li>css3</li>
+              <li>JavaScript</li>
+              <li>BEM</li>
+              <li>bower</li>
+              <li>grunt</li>
+            </ul>
+
+            <a href="" class="certs__link text-sm">www.superapp.com</a>
+          </div>
         </div>
-      </nav>
-    </header>
 
-    <!--=============== Main ===============-->
-    <main class="main">
-      <!--=============== Home ===============-->
-      <section class="home" id="home">
-        <div class="home__container container grid">
-          <img src="assets/img/profile.png" alt="" class="home__img" />
+        <div class="certs__item grid mix landing">
+          <img src="assets/img/project-3.png" alt="" class="project__img" />
 
-          <div class="home__data">
-            <h1 class="home__name">John Soudi_</h1>
-            <p class="home__work">aspiring security analyst</p>
-            <dl class="home__list">
-              <dt>PHONE:</dt>
+          <div class="certs__data">
+            <h3 class="certs__title text-lg">
+              ADMIN TEMPLATE FOR PHOTO SERVICE
+            </h3>
+            <p class="certs__description">
+              Do answered bachelor occasion in of offended no concerns. Supply
+              worthy warmth branch of no ye. Voice tried known to as my to.
+              Though wished merits or be. Alone visit use these smart rooms
+              ham.
+            </p>
+            <h4 class="certs__stack text-xs">USED STACK:</h4>
+            <ul class="tags text-sm">
+              <li>html5</li>
+              <li>css3</li>
+              <li>JavaScript</li>
+              <li>BEM</li>
+              <li>bower</li>
+              <li>grunt</li>
+            </ul>
+
+            <a href="" class="certs__link text-sm">www.superapp.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="certs__container grid">
+        <div class="certs__item grid mix app">
+          <img src="assets/img/project-1.png" alt="" class="project__img" />
+
+          <div class="certs__data">
+            <h3 class="certs__title text-lg">
+              MOBILE AND DESKTOP APP FOR LONDON HOSTEL STORE
+            </h3>
+            <p class="certs__description">
+              Do answered bachelor occasion in of offended no concerns. Supply
+              worthy warmth branch of no ye. Voice tried known to as my to.
+              Though wished merits or be. Alone visit use these smart rooms
+              ham.
+            </p>
+            <h4 class="certs__stack text-xs">USED STACK:</h4>
+            <ul class="tags text-sm">
+              <li>html5</li>
+              <li>css3</li>
+              <li>JavaScript</li>
+              <li>BEM</li>
+              <li>bower</li>
+              <li>grunt</li>
+            </ul>
+
+            <a href="" class="certs__link text-sm">www.superapp.com</a>
+          </div>
+        </div>
+
+        <div class="certs__item grid mix web">
+          <img src="assets/img/project-2.png" alt="" class="project__img" />
+
+          <div class="certs__data">
+            <h3 class="certs__title text-lg">
+              WEB APP PAGE FOR TRAVEL COMPANY
+            </h3>
+            <p class="certs__description">
+              Do answered bachelor occasion in of offended no concerns. Supply
+              worthy warmth branch of no ye. Voice tried known to as my to.
+              Though wished merits or be. Alone visit use these smart rooms
+              ham.
+            </p>
+            <h4 class="certs__stack text-xs">USED STACK:</h4>
+            <ul class="tags text-sm">
+              <li>html5</li>
+              <li>css3</li>
+              <li>JavaScript</li>
+              <li>BEM</li>
+              <li>bower</li>
+              <li>grunt</li>
+            </ul>
+
+            <a href="" class="certs__link text-sm">www.superapp.com</a>
+          </div>
+        </div>
+
+        <div class="certs__item grid mix landing">
+          <img src="assets/img/project-3.png" alt="" class="project__img" />
+
+          <div class="certs__data">
+            <h3 class="certs__title text-lg">
+              ADMIN TEMPLATE FOR PHOTO SERVICE
+            </h3>
+            <p class="certs__description">
+              Do answered bachelor occasion in of offended no concerns. Supply
+              worthy warmth branch of no ye. Voice tried known to as my to.
+              Though wished merits or be. Alone visit use these smart rooms
+              ham.
+            </p>
+            <h4 class="certs__stack text-xs">USED STACK:</h4>
+            <ul class="tags text-sm">
+              <li>html5</li>
+              <li>css3</li>
+              <li>JavaScript</li>
+              <li>BEM</li>
+              <li>bower</li>
+              <li>grunt</li>
+            </ul>
+
+            <a href="" class="certs__link text-sm">www.superapp.com</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--=============== Skills ===============-->
+    <section class="section container">
+      <h2 class="section__title">Skills_</h2>
+
+      <div class="skills__container grid">
+        <div class="skills__content">
+          <h3 class="skills__title text-sm">Programming</h3>
+
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">Python</p>
+                <span class="skills__number text-sm">30%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 30%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">CSS</p>
+                <span class="skills__number text-sm">30%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 30%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">JavaScript</p>
+                <span class="skills__number text-sm">30%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 30%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">HTML</p>
+                <span class="skills__number text-sm">50%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 50%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__content">
+          <h3 class="skills__title text-sm">Purple Teaming</h3>
+
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">PHP</p>
+                <span class="skills__number text-sm">90%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 90%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">Node Js</p>
+                <span class="skills__number text-sm">80%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 80%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">Python</p>
+                <span class="skills__number text-sm">60%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 60%"></span>
+              </div>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__titles">
+                <p class="skills__name text-sm">MySQL</p>
+                <span class="skills__number text-sm">85%</span>
+              </div>
+
+              <div class="skills__bar">
+                <span class="skills__percentage" style="width: 85%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--=============== Resume ===============-->
+    <section class="section container" id="resume">
+      <h2 class="section__title">Resume_</h2>
+
+      <div class="resume__container grid">
+        <div class="resume__data">
+          <h3 class="resume__title text-sm">EDUCATION</h3>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">
+              WESTERN GOVERNORS UNIVERSITY
+            </h3>
+            <p class="resume__date text-sm">2022 - 2024</p>
+            <p class="resume__description text-lg">
+            <h4><strong>Bachelor of Science, Cybersecurity
+                and Information Assurance</strong> (In Progress)</h4>
+            </p>
+          </div>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">
+              SELF STUDY
+            </h3>
+            <p class="resume__date text-sm">2020 - Present</p>
+            <p class="resume__description text-lg">
+            <h4><strong>Cybersecurity and Programming</strong></h4>
+            </p>
+          </div>
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">
+              GARDNER WEBB UNIVERSITY
+            </h3>
+            <p class="resume__date text-sm">2004 - 2005</p>
+            <p class="resume__description text-lg">
+            <h4><strong>Bachelor of Science, Accounting</strong> (Incomplete)</h4>
+            </p>
+          </div>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">ISOTHERMAL COMMUNITY COLLEGE</h3>
+            <p class="resume__date text-sm">2003 - 2006</p>
+            <p class="resume__description text-lg">
+            <h4><strong>Associates of Arts</strong> (Transfer)</h4>
+            </p>
+          </div>
+        </div>
+
+        <div class="resume__data">
+          <h3 class="resume__title text-sm">EMPLOYMENT</h3>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">UBER</h3>
+            <p class="resume__date text-sm">2017 - Present</p>
+            <p class="resume__description text-lg">
+              <strong>Rideshare Driver</strong>
+            <p>ipsum dolor sit amet, consecte tur adipisicing
+              elit, sed do eiusmod tempor incididunt ut</p>
+            </p>
+          </div>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">LYFT</h3>
+            <p class="resume__date text-sm">2017 - Present</p>
+            <p class="resume__description text-lg">
+              <strong>Rideshare Driver</strong>
+            <p>ipsum dolor sit amet, consecte tur adipisicing
+              elit, sed do eiusmod tempor incididunt ut</p>
+            </p>
+          </div>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">UPS</h3>
+            <p class="resume__date text-sm">2003 - 2006</p>
+            <p class="resume__description text-lg">
+              <strong>Inside Sales Representative</strong>
+            <p>ipsum dolor sit amet, consecte tur adipisicing
+              elit, sed do eiusmod tempor incididunt ut</p>
+            </p>
+          </div>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">FREIGHTWORKS, LLC</h3>
+            <p class="resume__date text-sm">2003 - 2006</p>
+            <p class="resume__description text-lg">
+              <strong>Dispatcher</strong>
+            <p>ipsum dolor sit amet, consecte tur adipisicing
+              elit, sed do eiusmod tempor incididunt ut</p>
+            </p>
+          </div>
+
+          <div class="resume__item">
+            <h3 class="resume__subtitle text-sm">FUELWORKS, LLC</h3>
+            <p class="resume__date text-sm">2003 - 2006</p>
+            <p class="resume__description text-lg">
+              <strong>Plant Manager</strong>
+            <p>ipsum dolor sit amet, consecte tur adipisicing
+              elit, sed do eiusmod tempor incididunt ut</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--=============== Contact ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__content container">
+        <h2 class="section__title">Get in touch_</h2>
+
+        <div class="contact__container grid">
+          <div class="contact__info">
+            <dl class="contact__list">
+              <dt>Website:</dt>
+              <dd>johnsoudi.com</dd>
+              <dt>Phone:</dt>
               <dd>(813)539-4200</dd>
-              <dt>EMAIL:</dt>
+              <dt>Email:</dt>
               <dd>john@johnsoudi.com</dd>
-              <dt>ADDRESS:</dt>
-              <dd>St. Petersburg, FL</dd>
             </dl>
-            <div class="home__socials">
-              <a
-                href="https://github.com/algofibo"
-                target="_blank"
-                class="home__social-link"
-              >
-                <i class="ri-github-fill"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/john-soudi-jr-84a199221/"
-                target="_blank"
-                class="home__social-link"
-              >
-                <i class="ri-linkedin-box-fill"></i>
-              </a>
-            </div>
+
+            <ul class="contact__socials">
+              <li>
+                <a href="https://www.linkedin.com/in/john-soudi-jr-84a199221/" class="contact__social-link">Linkedin</a>
+              </li>
+              <li>
+                <a href="https://github.com/algofibo" class="contact__social-link">Github</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact__form">
+            <p class="contact__form-title">Or just write me a note here_</p>
+
+            <form action="" id="contact-form">
+              <div class="contact__input-div">
+                <input type="text" name="name" placeholder="Your name" class="contact__input" id="contact-name" />
+              </div>
+
+              <div class="contact__input-div">
+                <input type="email" name="email" placeholder="Your e-mail" class="contact__input" id="contact-email" />
+              </div>
+
+              <div class="contact__input-div">
+                <textarea name="message" placeholder="Type the message here" class="contact__input textarea"
+                  id="message" cols="30" rows="10"></textarea>
+              </div>
+
+              <p class="contact__message text-sm" id="contact-message"></p>
+
+              <button type="submit" class="button contact__button">
+                SEND
+              </button>
+            </form>
+
+            <p class="footer__copy">
+              &copy; 2024 John Soudi. All Rights Reserved
+            </p>
           </div>
         </div>
-      </section>
-
-      <!--=============== Hello ===============-->
-      <section class="hello section container">
-        <h2 class="section__title">Hi_</h2>
-
-        <p class="hello__details text-lg">
-          I am a Cybersecurity student who has a passion for learning and solving challenges. Cybersecuirity  
-        </p>
-        <a href="assets/img/John-Cv.pdf" class="button button--flex text-sm"
-          ><i class="ri-download-line"></i> DOWNLOAD CV</a
-        >
-      </section>
-
-      <!--=============== projects ===============-->
-      <section class="projects section container" id="projects">
-        <h2 class="section__title">Recent Projects_</h2>
-
-        <div class="posts__container grid">
-          <a href="project_details.html" class="post__card">
-            <img src="assets/img/blog-1.png" alt="" class="post__img" />
-
-            <div class="post__content">
-              <p class="post__date text-xs">October 22, 2017</p>
-              <h3 class="post__title text-sm">HOW TO USE CSS-PREPROCESSOR</h3>
-              <p class="post__description text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempr incididu...
-              </p>
-            </div>
-          </a>
-
-          <a href="project_details.html" class="post__card">
-            <img src="assets/img/blog-2.png" alt="" class="post__img" />
-
-            <div class="post__content">
-              <p class="post__date text-xs">October 22, 2017</p>
-              <h3 class="post__title text-sm">
-                HOW I ORGANIZE MY WORK WITH CODE
-              </h3>
-              <p class="post__description text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempr incididu...
-              </p>
-            </div>
-          </a>
-
-          <a href="project_details.html" class="post__card">
-            <img src="assets/img/blog-3.png" alt="" class="post__img" />
-
-            <div class="post__content">
-              <p class="post__date text-xs">October 22, 2017</p>
-              <h3 class="post__title text-sm">SVG SPRITES VS ICON FONT</h3>
-              <p class="post__description text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempr incididu...
-              </p>
-            </div>
-          </a>
-        </div>
-
-        <div class="posts__container grid">
-          <a href="project_details.html" class="post__card">
-            <img src="assets/img/blog-1.png" alt="" class="post__img" />
-
-            <div class="post__content">
-              <p class="post__date text-xs">October 22, 2017</p>
-              <h3 class="post__title text-sm">HOW TO USE CSS-PREPROCESSOR</h3>
-              <p class="post__description text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempr incididu...
-              </p>
-            </div>
-          </a>
-
-          <a href="project_details.html" class="post__card">
-            <img src="assets/img/blog-2.png" alt="" class="post__img" />
-
-            <div class="post__content">
-              <p class="post__date text-xs">October 22, 2017</p>
-              <h3 class="post__title text-sm">
-                HOW I ORGANIZE MY WORK WITH CODE
-              </h3>
-              <p class="post__description text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempr incididu...
-              </p>
-            </div>
-          </a>
-
-          <a href="project_details.html" class="post__card">
-            <img src="assets/img/blog-3.png" alt="" class="post__img" />
-
-            <div class="post__content">
-              <p class="post__date text-xs">October 22, 2017</p>
-              <h3 class="post__title text-sm">SVG SPRITES VS ICON FONT</h3>
-              <p class="post__description text-sm">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempr incididu...
-              </p>
-            </div>
-          </a>
-        </div>
-      </section>
-
-
-
-      <!--=============== Certs and Badges ===============-->
-      <section class="certs section container" id="certs">
-        <h2 class="section__title">Recent Certs and Badges_</h2>
-
-        <div class="certs__container grid">
-          <div class="certs__item grid mix app">
-            <img src="assets/img/project-1.png" alt="" class="project__img" />
-
-            <div class="certs__data">
-              <h3 class="certs__title text-lg">
-                MOBILE AND DESKTOP APP FOR LONDON HOSTEL STORE
-              </h3>
-              <p class="certs__description">
-                Do answered bachelor occasion in of offended no concerns. Supply
-                worthy warmth branch of no ye. Voice tried known to as my to.
-                Though wished merits or be. Alone visit use these smart rooms
-                ham.
-              </p>
-              <h4 class="certs__stack text-xs">USED STACK:</h4>
-              <ul class="tags text-sm">
-                <li>html5</li>
-                <li>css3</li>
-                <li>JavaScript</li>
-                <li>BEM</li>
-                <li>bower</li>
-                <li>grunt</li>
-              </ul>
-
-              <a href="" class="certs__link text-sm">www.superapp.com</a>
-            </div>
-          </div>
-
-          <div class="certs__item grid mix web">
-            <img src="assets/img/project-2.png" alt="" class="project__img" />
-
-            <div class="certs__data">
-              <h3 class="certs__title text-lg">
-                WEB APP PAGE FOR TRAVEL COMPANY
-              </h3>
-              <p class="certs__description">
-                Do answered bachelor occasion in of offended no concerns. Supply
-                worthy warmth branch of no ye. Voice tried known to as my to.
-                Though wished merits or be. Alone visit use these smart rooms
-                ham.
-              </p>
-              <h4 class="certs__stack text-xs">USED STACK:</h4>
-              <ul class="tags text-sm">
-                <li>html5</li>
-                <li>css3</li>
-                <li>JavaScript</li>
-                <li>BEM</li>
-                <li>bower</li>
-                <li>grunt</li>
-              </ul>
-
-              <a href="" class="certs__link text-sm">www.superapp.com</a>
-            </div>
-          </div>
-
-          <div class="certs__item grid mix landing">
-            <img src="assets/img/project-3.png" alt="" class="project__img" />
-
-            <div class="certs__data">
-              <h3 class="certs__title text-lg">
-                ADMIN TEMPLATE FOR PHOTO SERVICE
-              </h3>
-              <p class="certs__description">
-                Do answered bachelor occasion in of offended no concerns. Supply
-                worthy warmth branch of no ye. Voice tried known to as my to.
-                Though wished merits or be. Alone visit use these smart rooms
-                ham.
-              </p>
-              <h4 class="certs__stack text-xs">USED STACK:</h4>
-              <ul class="tags text-sm">
-                <li>html5</li>
-                <li>css3</li>
-                <li>JavaScript</li>
-                <li>BEM</li>
-                <li>bower</li>
-                <li>grunt</li>
-              </ul>
-
-              <a href="" class="certs__link text-sm">www.superapp.com</a>
-            </div>
-          </div>
-        </div>
-        <div class="certs__container grid">
-          <div class="certs__item grid mix app">
-            <img src="assets/img/project-1.png" alt="" class="project__img" />
-
-            <div class="certs__data">
-              <h3 class="certs__title text-lg">
-                MOBILE AND DESKTOP APP FOR LONDON HOSTEL STORE
-              </h3>
-              <p class="certs__description">
-                Do answered bachelor occasion in of offended no concerns. Supply
-                worthy warmth branch of no ye. Voice tried known to as my to.
-                Though wished merits or be. Alone visit use these smart rooms
-                ham.
-              </p>
-              <h4 class="certs__stack text-xs">USED STACK:</h4>
-              <ul class="tags text-sm">
-                <li>html5</li>
-                <li>css3</li>
-                <li>JavaScript</li>
-                <li>BEM</li>
-                <li>bower</li>
-                <li>grunt</li>
-              </ul>
-
-              <a href="" class="certs__link text-sm">www.superapp.com</a>
-            </div>
-          </div>
-
-          <div class="certs__item grid mix web">
-            <img src="assets/img/project-2.png" alt="" class="project__img" />
-
-            <div class="certs__data">
-              <h3 class="certs__title text-lg">
-                WEB APP PAGE FOR TRAVEL COMPANY
-              </h3>
-              <p class="certs__description">
-                Do answered bachelor occasion in of offended no concerns. Supply
-                worthy warmth branch of no ye. Voice tried known to as my to.
-                Though wished merits or be. Alone visit use these smart rooms
-                ham.
-              </p>
-              <h4 class="certs__stack text-xs">USED STACK:</h4>
-              <ul class="tags text-sm">
-                <li>html5</li>
-                <li>css3</li>
-                <li>JavaScript</li>
-                <li>BEM</li>
-                <li>bower</li>
-                <li>grunt</li>
-              </ul>
-
-              <a href="" class="certs__link text-sm">www.superapp.com</a>
-            </div>
-          </div>
-
-          <div class="certs__item grid mix landing">
-            <img src="assets/img/project-3.png" alt="" class="project__img" />
-
-            <div class="certs__data">
-              <h3 class="certs__title text-lg">
-                ADMIN TEMPLATE FOR PHOTO SERVICE
-              </h3>
-              <p class="certs__description">
-                Do answered bachelor occasion in of offended no concerns. Supply
-                worthy warmth branch of no ye. Voice tried known to as my to.
-                Though wished merits or be. Alone visit use these smart rooms
-                ham.
-              </p>
-              <h4 class="certs__stack text-xs">USED STACK:</h4>
-              <ul class="tags text-sm">
-                <li>html5</li>
-                <li>css3</li>
-                <li>JavaScript</li>
-                <li>BEM</li>
-                <li>bower</li>
-                <li>grunt</li>
-              </ul>
-
-              <a href="" class="certs__link text-sm">www.superapp.com</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      
-      <!--=============== Skills ===============-->
-      <section class="section container">
-        <h2 class="section__title">Skills_</h2>
-
-        <div class="skills__container grid">
-          <div class="skills__content">
-            <h3 class="skills__title text-sm">Programming</h3>
-
-            <div class="skills__list grid">
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">Python</p>
-                  <span class="skills__number text-sm">30%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 30%"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">CSS</p>
-                  <span class="skills__number text-sm">30%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 30%"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">JavaScript</p>
-                  <span class="skills__number text-sm">30%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 30%"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">HTML</p>
-                  <span class="skills__number text-sm">50%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 50%"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skills__content">
-            <h3 class="skills__title text-sm">Purple Teaming</h3>
-
-            <div class="skills__list grid">
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">PHP</p>
-                  <span class="skills__number text-sm">90%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 90%"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">Node Js</p>
-                  <span class="skills__number text-sm">80%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 80%"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">Python</p>
-                  <span class="skills__number text-sm">60%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 60%"></span>
-                </div>
-              </div>
-
-              <div class="skills__data">
-                <div class="skills__titles">
-                  <p class="skills__name text-sm">MySQL</p>
-                  <span class="skills__number text-sm">85%</span>
-                </div>
-
-                <div class="skills__bar">
-                  <span class="skills__percentage" style="width: 85%"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      
-       <!--=============== Resume ===============-->
-       <section class="section container" id="resume">
-        <h2 class="section__title">Resume_</h2>
-
-        <div class="resume__container grid">
-          <div class="resume__data">
-            <h3 class="resume__title text-sm">EDUCATION</h3>
-
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">
-                WESTERN GOVERNORS UNIVERSITY
-              </h3>
-              <p class="resume__date text-sm">2022 - 2024</p>
-              <p class="resume__description text-lg">
-                <h4><strong>Bachelor of Science, Cybersecurity 
-                  and Information Assurance</strong> (In Progress)</h4>
-              </p>
-            </div>
-
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">
-                SELF STUDY
-              </h3>
-              <p class="resume__date text-sm">2020 - Present</p>
-              <p class="resume__description text-lg">
-                <h4><strong>Cybersecurity and Programming</strong></h4>
-              </p>
-            </div>
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">
-                GARDNER WEBB UNIVERSITY
-              </h3>
-              <p class="resume__date text-sm">2004 - 2005</p>
-              <p class="resume__description text-lg">
-                <h4><strong>Bachelor of Science, Accounting</strong> (Incomplete)</h4>
-              </p>
-            </div>
-
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">ISOTHERMAL COMMUNITY COLLEGE</h3>
-              <p class="resume__date text-sm">2003 - 2006</p>
-              <p class="resume__description text-lg">
-                <h4><strong>Associates of Arts</strong> (Transfer)</h4>
-              </p>
-            </div>
-          </div>
-
-          <div class="resume__data">
-            <h3 class="resume__title text-sm">EMPLOYMENT</h3>
-
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">UBER</h3>
-              <p class="resume__date text-sm">2017 - Present</p>
-              <p class="resume__description text-lg">
-                <strong>Rideshare Driver</strong> 
-                <p>ipsum dolor sit amet, consecte tur adipisicing
-                  elit, sed do eiusmod tempor incididunt ut</p>
-              </p>
-            </div>
-
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">LYFT</h3>
-              <p class="resume__date text-sm">2017 - Present</p>
-              <p class="resume__description text-lg">
-                <strong>Rideshare Driver</strong>
-                <p>ipsum dolor sit amet, consecte tur adipisicing
-                  elit, sed do eiusmod tempor incididunt ut</p>
-              </p>
-            </div>
-
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">UPS</h3>
-              <p class="resume__date text-sm">2003 - 2006</p>
-              <p class="resume__description text-lg">
-                <strong>Inside Sales Representative</strong>  
-                <p>ipsum dolor sit amet, consecte tur adipisicing
-                elit, sed do eiusmod tempor incididunt ut</p>
-              </p>
-              </div>
-
-            <div class="resume__item">
-              <h3 class="resume__subtitle text-sm">FREIGHTWORKS, LLC</h3>
-              <p class="resume__date text-sm">2003 - 2006</p>
-              <p class="resume__description text-lg">
-                <strong>Dispatcher</strong> 
-                <p>ipsum dolor sit amet, consecte tur adipisicing
-                  elit, sed do eiusmod tempor incididunt ut</p>
-              </p>
-              </div>
-
-              <div class="resume__item">
-                <h3 class="resume__subtitle text-sm">FUELWORKS, LLC</h3>
-                <p class="resume__date text-sm">2003 - 2006</p>
-                <p class="resume__description text-lg">
-                  <strong>Plant Manager</strong> 
-                  <p>ipsum dolor sit amet, consecte tur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut</p>
-                </p>
-                </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== Contact ===============-->
-      <section class="contact section" id="contact">
-        <div class="contact__content container">
-          <h2 class="section__title">Get in touch_</h2>
-
-          <div class="contact__container grid">
-            <div class="contact__info">
-              <dl class="contact__list">
-                <dt>Website:</dt>
-                <dd>johnsoudi.com</dd>
-                <dt>Phone:</dt>
-                <dd>(813)539-4200</dd>
-                <dt>Email:</dt>
-                <dd>john@johnsoudi.com</dd>
-              </dl>
-
-              <ul class="contact__socials">
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/john-soudi-jr-84a199221/"
-                    class="contact__social-link"
-                    >Linkedin</a
-                  >
-                </li>
-                <li>
-                  <a href="https://github.com/algofibo" class="contact__social-link"
-                    >Github</a
-                  >
-                </li>
-              </ul>
-            </div>
-
-            <div class="contact__form">
-              <p class="contact__form-title">Or just write me a note here_</p>
-
-              <form action="" id="contact-form">
-                <div class="contact__input-div">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Your name"
-                    class="contact__input"
-                    id="contact-name"
-                  />
-                </div>
-
-                <div class="contact__input-div">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Your e-mail"
-                    class="contact__input"
-                    id="contact-email"
-                  />
-                </div>
-
-                <div class="contact__input-div">
-                  <textarea
-                    name="message"
-                    placeholder="Type the message here"
-                    class="contact__input textarea"
-                    id="message"
-                    cols="30"
-                    rows="10"
-                  ></textarea>
-                </div>
-
-                <p class="contact__message text-sm" id="contact-message"></p>
-
-                <button type="submit" class="button contact__button">
-                  SEND
-                </button>
-              </form>
-
-              <p class="footer__copy">
-                &copy; 2024 John Soudi. All Rights Reserved
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!--=============== Style Switcher ===============-->
-    <div class="style__switcher">
-      <div class="style__switcher-toggler">
-        <i class="ri-settings-4-fill"></i>
       </div>
+    </section>
+  </main>
 
-      <div class="colors">
-        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
-      </div>
+  <!--=============== Style Switcher ===============-->
+  <div class="style__switcher">
+    <div class="style__switcher-toggler">
+      <i class="ri-settings-4-fill"></i>
     </div>
 
-    <!--=============== Mixitup ===============-->
-    <script src="assets/js/mixitup.min.js"></script>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+    </div>
+  </div>
 
-    <!--=============== Swiper Js ===============-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!--=============== Mixitup ===============-->
+  <script src="assets/js/mixitup.min.js"></script>
 
-    <!--=============== Email Js ===============-->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
+  <!--=============== Swiper Js ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-    <!--=============== Js ===============-->
-    <script src="assets/js/main.js"></script>
+  <!--=============== Email Js ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-    <!--=============== Common ===============-->
-    <script src="assets/js/common.js"></script>
-  </body>
+  <!--=============== Js ===============-->
+  <script src="assets/js/main.js"></script>
+
+  <!--=============== Common ===============-->
+  <script src="assets/js/common.js"></script>
+</body>
+
 </html>
